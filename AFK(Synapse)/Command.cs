@@ -1,4 +1,4 @@
-﻿using Synapse.Api;
+using Synapse.Api;
 using Synapse.Command;
 
 namespace AFK_Synapse_
@@ -17,7 +17,13 @@ namespace AFK_Synapse_
         {
             var result = new CommandResult();
             Player p = context.Player;
-            if (EventHandlers.afk_players.Contains(p) == false)
+            if (EventHandlers.afk_players.Count >= Plugin.Config.PlayerLimit)
+            {
+                result.Message = "Too many players, command failed";
+                result.State = CommandResultState.Error;
+                return result;
+            }
+            if (!EventHandlers.afk_players.Contains(p))
             {
                 EventHandlers.afk_players.Add(p);
                 result.Message = Plugin.Config.AddedToAFK;
