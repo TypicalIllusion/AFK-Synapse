@@ -9,8 +9,8 @@ namespace AFK_Synapse_
        Name = "AFK",
        SynapseMajor = 2,
        SynapseMinor = 3,
-       SynapsePatch = 0,
-       Version = "1.0.0"
+       SynapsePatch = 1,
+       Version = "1.0.1"
    )]
     class Plugin : AbstractPlugin
     {
