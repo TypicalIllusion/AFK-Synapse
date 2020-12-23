@@ -1,4 +1,4 @@
-﻿using Synapse.Api.Plugin;
+using Synapse.Api.Plugin;
 
 namespace AFK_Synapse_
 {
@@ -9,12 +9,8 @@ namespace AFK_Synapse_
        Name = "AFK",
        SynapseMajor = 2,
        SynapseMinor = 3,
-<<<<<<< HEAD
        SynapsePatch = 1,
-=======
-       SynapsePatch = 0,
->>>>>>> e94e1c226622eceb8ac0d7466c6e3653af5c472d
-       Version = "1.0.1"
+       Version = "1.0.2"
    )]
     class Plugin : AbstractPlugin
     {
