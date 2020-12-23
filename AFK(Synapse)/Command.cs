@@ -1,4 +1,4 @@
-﻿using Synapse.Api;
+using Synapse.Api;
 using Synapse.Command;
 
 namespace AFK_Synapse_

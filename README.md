@@ -9,4 +9,8 @@ Run the command again to spawn again
 | `AddedToAfk`| string | The added to afk message | "You have been added to afk players.\nYou will not respawn." |
 | `RemovedFromAFK` | string | The removed from afk message | "You have been removed from afk players.\nYou may now respawn." |
 
+<<<<<<< HEAD
 Discord: TypicalIllusion#6969
+=======
+Discord: TypicalIllusion#6969
+>>>>>>> e94e1c226622eceb8ac0d7466c6e3653af5c472d
